@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.936" height="23.936" viewBox="0 0 23.936 23.936">
+  <g id="play-button" transform="translate(0 0)">
+    <circle id="Ellipse_287" data-name="Ellipse 287" cx="8.704" cy="8.704" r="8.704" transform="matrix(0.853, -0.522, 0.522, 0.853, 0, 9.088)" fill="#d80010"/>
+    <path id="Path_1417" data-name="Path 1417" d="M13.62,14.583V10.8a.925.925,0,0,1,1.386-.808l3.277,1.891,3.277,1.891a.925.925,0,0,1,0,1.616l-3.277,1.887-3.277,1.891a.925.925,0,0,1-1.386-.808Z" transform="translate(-4.851 -2.614)" fill="#fff"/>
+  </g>
+</svg>
