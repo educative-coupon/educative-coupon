@@ -1,0 +1,9 @@
+@media only screen and (min-width: 768px) {
+  .landing-page-li {
+    margin-top: 1vw;
+  }
+
+  .landing-page-buttons-container {
+    margin-top: 5%;
+  }
+}

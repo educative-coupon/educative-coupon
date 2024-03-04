@@ -1,0 +1,215 @@
+@media only screen and (max-width: 768px) {
+  .spacing-in-top {
+    height: 10px;
+  }
+  /*Courses */
+  .courses-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px var(--margin-side);
+  }
+
+  .courses-container .heading {
+    margin-bottom: 8px;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: var(--secondary-dark-red);
+    text-align: left;
+  }
+
+  .courses-container .heading-details {
+    font-size: 14px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+  }
+
+  .courses-container main {
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(auto-fill, auto);
+    grid-template-columns: repeat(auto-fill, 47%);
+    justify-content: space-between;
+    flex-grow: 1;
+    row-gap: 4vw;
+  }
+
+  .courses-container main a {
+    text-decoration: none;
+  }
+
+  .courses-single-item-container {
+    height: 130px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-content: center; */
+    position: relative;
+    overflow: hidden;
+    background: var(--neutral-grey);
+    border-radius: 10px;
+  }
+
+  .courses-single-item-container .courses-single-item-title {
+    color: var(--primary-blue);
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0 8px;
+    min-height: 35px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+  }
+
+  .courses-single-item-container img {
+    width: 54px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .courses-single-item-container:hover {
+    /* transform: scale(0.98); */
+    background-color: white;
+    border: 1.5px var(--secondary-red) solid;
+    border-radius: 10px;
+  }
+
+  .heading a {
+    text-decoration: none;
+    color: var(--primary-blue);
+  }
+
+  .gold-bg {
+    background: linear-gradient(
+      273.95deg,
+      #efc46d,
+      #feed95 25.62%,
+      #e4bd6c 63.88%,
+      #feed95 103.54%
+    );
+    border-radius: 4px;
+  }
+
+  .premium-highlight {
+    background: linear-gradient(
+      273.95deg,
+      #efc46d,
+      #feed95 25.62%,
+      #e4bd6c 63.88%,
+      #feed95 103.54%
+    );
+    border-radius: 4px;
+    border-color: #efc46d !important;
+    padding: 0 10px;
+    color: black;
+  }
+
+  .premium-highlight-course {
+    background: linear-gradient(
+      273.95deg,
+      #efc46d,
+      #feed95 25.62%,
+      #e4bd6c 63.88%,
+      #feed95 103.54%
+    );
+    border-color: #efc46d !important;
+    padding: 0 10px;
+    font-weight: 500;
+  }
+
+  .premium-highlight-course .courses-single-item-title {
+    /* color: white; */
+  }
+
+  .premium-features img {
+    width: 100px;
+    height: fit-content;
+    margin-right: 1rem;
+    height: 80px;
+  }
+
+  .courses-single-item-container img {
+    width: 45px;
+    margin: auto;
+    margin-top: 18px;
+  }
+
+  .long-text-course-single-item-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 200px)) !important;
+  }
+
+  .long-text-course-single-item-container p {
+    margin-bottom: 20px !important;
+  }
+
+  .courses-single-item-container:hover {
+    /* transform: scale(0.98); */
+    background-color: white;
+    border: 1.5px var(--secondary-red) solid;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(12, 11, 11, 0.4);
+  }
+
+  .heading a {
+    text-decoration: none;
+    color: var(--primary-blue);
+  }
+
+  .courses-heading-title-cntr {
+    display: flex;
+  }
+
+  #img-with-h1 {
+    /* height: 1rem; */
+    /* margin-top: -12px; */
+    /* width: 8rem; */
+
+    margin-top: -3px;
+    width: 8rem;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    height: 50px;
+  }
+
+  .career-track-banner {
+    height: 100px;
+  }
+
+  .premium-exculsive-offering {
+    font-size: calc(1.3rem + 0.6vw);
+    line-height: 1.2;
+  }
+
+  .col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .d-flex {
+    display: flex;
+  }
+
+  .flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+  }
+
+  .flex-wrap h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+  }
+
+  .flex-wrap > * {
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) / 2);
+    padding-left: calc(var(--bs-gutter-x) / 2);
+    margin-top: var(--bs-gutter-y);
+  }
+}

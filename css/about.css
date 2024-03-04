@@ -1,0 +1,122 @@
+@media only screen and (min-width: 768px) {
+    
+    /* Menu Items */
+    #menu-items-desktop{
+        /* visibility: hidden; */
+    }
+
+    #menu-items-mobile{
+        /* visibility: hidden; */
+    }
+    
+    /* Landing Page */
+    .about-landing-page-container {
+        /* margin-top: 54px; */
+        height: auto;
+        width: 100%;
+        padding: var(--margin-updown) var(--margin-side);
+    }
+
+    .about-lp-img-container {
+        padding-top: 3%;
+        /* margin-top: 3%; */
+        display: flex;
+        justify-content: center;
+        height: 350px;
+    }
+
+    .about-lp-img-container img {
+        height: 100%;
+    }
+
+    .about-lp-title {
+        margin-top: 3%;
+    }
+
+    .about-lp-title a {
+        /* color: var(--primary-blue); */
+        color: var(--secondary-red);
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .about-lp-para {
+        max-width: 700px;
+        text-align: center;
+        margin: auto;
+        margin-top: 2%;
+    }
+
+    /* All Other Details */
+    .about-all-details-container {
+        padding: var(--margin-updown) var(--margin-side);
+        display: grid;
+        grid-auto-flow: row;
+        /* row-gap: 2%; */ /* Cant be in % in height auto mode */
+        row-gap: 50px;
+    }
+
+    .about-others-single-container {
+        background: var(--neutral-grey);
+        padding: 3% 3%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        /* box-shadow: 5px 5px 5px #00000033; */
+    }
+
+    .about-others-single-img-container {
+        display: flex;
+        justify-content: center;
+        order: -1;
+        /* width: 20%; */
+        min-width: 150px;
+        max-width: 150px;
+        margin-right: 5%;
+    }
+
+    .about-others-single-container:nth-child(even) .about-others-single-img-container{
+        order: 2;
+        margin-left: 2%;
+    }
+
+
+    .about-others-single-img-container img{
+        /* height: 100%; */
+        width: 100%;
+    }
+
+    .about-others-discrip {
+        flex-grow: 1;
+    }
+
+    .about-others-discrip h2 {
+        text-align:left;
+    }
+
+    .about-others-discrip p {
+        margin-top: 2%;
+        flex-grow: 1;
+        text-align:left;
+    }
+
+    .about-cn-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-cn-container button {
+        height: auto;
+        padding: 1.5% 4%;
+        width: auto;
+        font-size: 20px;
+        border-width: 2px;
+    }
+
+    footer {
+        height: auto;
+        width: 100%;
+        padding: var(--margin-updown) var(--margin-side);
+        background: var(--neutral-grey);
+    }
+}

@@ -1,0 +1,9 @@
+@media only screen and (max-width: 767px) {
+  /* For mobile: */
+  .logo-landing-page {
+    padding: 13px 0;
+  }
+  .social-proof-image {
+    padding: 14px 0;
+  }
+}

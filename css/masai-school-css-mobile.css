@@ -1,0 +1,14 @@
+@media only screen and (max-width: 767px) {
+  .features-container {
+    height: auto !important;
+  }
+
+  .review-description p {
+    font-size: 15px;
+  }
+
+  .placements-img {
+    /* height: auto !important; */
+    width: 100% !important;
+  }
+}

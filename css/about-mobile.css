@@ -1,0 +1,96 @@
+@media only screen and (max-width: 768px) {
+    
+    /* Menu Items */
+    #menu-items-desktop {
+        /* visibility: hidden; */
+    }
+
+    #menu-items-mobile {
+        /* visibility: hidden; */
+    }
+
+    .hamburger-icon{
+    }
+
+    /* Landing Page */
+    .about-landing-page-container {
+        height: auto;
+        width: 100%;
+        padding: var(--margin-updown) var(--margin-side);
+    }
+
+    .about-lp-img-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-lp-title {
+        margin-top: 10%;
+    }
+
+    .about-lp-title a {
+        /* color: var(--primary-blue); */
+        color: var(--secondary-red);
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .about-lp-para {
+        margin-top: 5%;
+    }
+
+    /* All Other Details */
+    .about-all-details-container {
+        padding: var(--margin-updown) var(--margin-side);
+        display: grid;
+        grid-auto-flow: row;
+        /* row-gap: 2%; */ /* Cant be in % in height auto mode */
+        row-gap: 50px;
+    }
+
+    .about-others-single-container {
+        background: var(--neutral-grey);
+        padding: var(--margin-updown) var(--margin-side);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        /* box-shadow: 5px 5px 5px #00000033; */
+    }
+
+    .about-others-single-img-container {
+        display: flex;
+        justify-content: center;
+        order: -1;
+    }
+
+    .about-others-discrip {
+    }
+
+    .about-others-discrip h2 {
+        margin-top: 8%;
+    }
+
+    .about-others-discrip p {
+        margin-top: 5%;
+        flex-grow: 1;
+    }
+
+    .about-cn-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-cn-container button {
+        height: auto;
+        padding: 3% 8%;
+        width: auto;
+        font-size: 16px;
+    }
+
+    footer {
+        height: auto;
+        width: 100%;
+        padding: var(--margin-updown) var(--margin-side);
+        background: var(--neutral-grey);
+    }
+}

@@ -1,0 +1,9 @@
+@media only screen and (max-width: 767px) {
+  .deal-percentage {
+    width: 100%;
+  }
+
+  .deal-details {
+    width: 100%;
+  }
+}

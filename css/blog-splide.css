@@ -1,0 +1,41 @@
+.splide__pagination {
+  bottom: 3.5% !important;
+}
+
+.splide__pagination__page {
+  background-color: var(--neutral-dark-grey) !important;
+  margin-right: 6px !important;
+}
+.splide__pagination__page.is-active {
+  background-color: var(--secondary-dark-red) !important;
+  opacity: 0.9 !important;
+}
+
+.splide__arrow {
+  background-color: transparent;
+  fill: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .splide__arrow {
+    /* No Select */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    fill: white;
+    font-weight: bold;
+  }
+
+  .splide__arrow--prev {
+    left: 0rem !important;
+  }
+
+  .splide__arrow--next {
+    right: 0rem !important;
+  }
+}

@@ -1,0 +1,105 @@
+/**
+ * Tabs Mobile
+ */
+@media only screen and (max-width: 767px) {
+  /* For mobile: */
+
+  .tabs-heading {
+    margin: 25px 0 12px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+  }
+
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .tabs label {
+    order: 1;
+    display: block;
+    padding: 5px 9px;
+    margin-right: 4px;
+    cursor: pointer;
+    background: #e2e2e2;
+    font-weight: bold;
+    transition: background ease 0.2s;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .tabs .tab {
+    order: 99;
+    flex-grow: 1;
+    width: 100%;
+    display: none;
+    padding: 12px;
+    background: rgb(164, 220, 255);
+    border: 1px solid var(--primary-blue);
+    margin-top: -1px;
+    margin-right: 33.7px;
+  }
+
+  .tabs .tabs-background-copied {
+    background: #a4ffc9 !important;
+  }
+
+  .tabs .tab p {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .tabs .tab .text-copied {
+    color: #0d9c57;
+  }
+
+  .tabs .tab .clipboard-btn {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.1s;
+    font-family: "Poppins", Arial, Helvetica, sans-serif !important;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--neutral-blue);
+  }
+
+  .tabs .tab .clipboard-btn:hover {
+    transform: scale(0.95);
+    transition: all 0.1s;
+  }
+
+  .tabs .tab .clipboard-btn-copied {
+    background: #0d9c57;
+    color: white;
+  }
+
+  .tabs input[type="radio"] {
+    display: none;
+  }
+  .tabs input[type="radio"]:checked + label {
+    background: rgb(164, 220, 255);
+    border: 1px solid var(--primary-blue);
+    border-bottom: 0;
+    z-index: 99;
+    font-weight: 500;
+  }
+  .tabs input[type="radio"]:checked + label + .tab {
+    display: block;
+  }
+
+  /* Single Line Tabs View */
+  /* @media (max-width: 45em) {
+    .tabs .tab,
+    .tabs label {
+      order: initial;
+    }
+    .tabs label {
+      width: 100%;
+      margin-right: 0;
+      margin-top: 0.2rem;
+    }
+  } */
+}

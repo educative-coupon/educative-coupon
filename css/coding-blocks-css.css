@@ -1,0 +1,10 @@
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .logo-landing-page {
+    width: 130%;
+    margin-left: 40%;
+  }
+  .social-proof-image {
+    padding: 10px 0;
+  }
+}

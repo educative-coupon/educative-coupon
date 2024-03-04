@@ -1,0 +1,174 @@
+/* For mobile: */
+@media only screen and (max-width: 767px) {
+  .listing-item-container:first-child {
+    margin-top: -20px !important;
+  }
+  .listing-item-container:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  .listing-item-container {
+    background-color: white;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .coupon-listing-container a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .deal-percentage {
+    width: 28%;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .deal-percentage a {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .deal-percentage-amount {
+    color: #009700;
+    font-size: 35px;
+    padding: 34px 0;
+    font-weight: 600;
+  }
+
+  .deal-type {
+    border-top: 1px solid #e3e3e3;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .deal-details {
+    width: 67%;
+    /* padding: 15px; */
+    margin-left: 10px;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  .deal-details .deal-title {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
+    /* margin-bottom: 5px; */
+    /* display: inline-block; */
+  }
+
+  .deal-pricing-container {
+    margin: 5px 0;
+  }
+
+  .deal-discounted-price {
+    color: #eb0909;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .deal-original-price {
+    color: #333;
+    opacity: 0.4;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 2px;
+  }
+
+  .deal-discount-percentage-hightlight {
+    color: white;
+    background-color: #eb0909;
+    display: inline-block;
+    padding: 2px 7px;
+    border-radius: 3px;
+    /* margin-left: 10px; */
+    font-size: 10px;
+  }
+
+  .deal-cta-options {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+  }
+
+  .deal-cta-btn {
+    margin-top: 5px;
+    background-color: #ffc000;
+    width: 100%;
+    color: black;
+    padding: 10px 30px;
+    font-weight: 550;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+    letter-spacing: 0.5px;
+    translate: all 1s;
+  }
+
+  .deal-cta-btn:hover {
+    transform: scale(1.02);
+    translate: all 1s;
+  }
+
+  .deal-coupon-code-container {
+    width: 100%;
+    margin-top: 15px;
+    padding: 8px 0;
+    border-radius: 5px;
+    color: green;
+    text-align: center;
+    border: dashed 1px green;
+    background-color: rgb(233, 255, 221);
+    translate: all 1s;
+  }
+
+  .deal-coupon-code-container:hover {
+    transform: scale(1.01);
+    translate: all 1s;
+  }
+
+  .deal-coupon-code-copied {
+    background-color: rgb(88 196 40);
+    border: dashed 1px green;
+    color: white;
+  }
+
+  .deal-coupon-code {
+    display: inline-block;
+  }
+
+  .deal-copy-icon {
+    margin-left: 7px;
+    width: 22px;
+    margin-bottom: -6px;
+    cursor: pointer;
+    translate: all 1s;
+  }
+
+  .deal-copy-icon:hover {
+    transform: scale(1.1);
+    translate: all 1s;
+  }
+
+  .deal-without-price {
+    margin-left: 0;
+  }
+}
